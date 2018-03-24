@@ -8,7 +8,6 @@ end
 
 def countdown_with_sleep (count)
   count.times do
-    puts "#{count}"
     sleep(1)
   end
 end
